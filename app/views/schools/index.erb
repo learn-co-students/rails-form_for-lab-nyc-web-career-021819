@@ -1,0 +1,10 @@
+<h1>School List</h1>
+<ul>
+  <% @schools.each do |s| %>
+  <label f>Title:</label>
+  <%= link_to s.title, school_path(s) %><br>
+  <label f>Room Number:</label>
+  <%= s.roon_number %><br>
+  <% end %>
+
+</ul>

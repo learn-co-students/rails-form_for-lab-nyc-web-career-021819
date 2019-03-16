@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Arlab</title>
+  <title>School Things</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
+<h1>
+<%= link_to "Nagivation Bar", schools_path %></h1>
 <body>
 
 <%= yield %>
-
 </body>
 </html>
