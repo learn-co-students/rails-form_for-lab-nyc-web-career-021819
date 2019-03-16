@@ -1,0 +1,9 @@
+<h2>Create School</h2>
+<%= form_for @school do |f| %>
+<label for="">School Title: </label>
+  <%= f.text_field :title %><br>
+  <label for="">Room Number: </label>
+  <%= f.number_field :roon_number %><br>
+  <%= f.submit %>
+
+<% end %>
